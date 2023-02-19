@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #f6f6f6;
+  display: grid;
+  grid-row: 3;
+  grid-column: 2;
+  gap: 1rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-flex {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.apresentacao {
+  max-width: 600px;
+}
+.apresentacao__titulo {
+  font-size: 1.75rem;
+  line-height: 56px;
+}
+.apresentacao__titulo .titulo--destaque {
+  color: blueviolet;
+}
+.apresentacao__texto {
+  font-size: 1rem;
+  line-height: 36px;
+  text-align: justify;
+}
+.apresentacao__botoes {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+.apresentacao__botoes .botao {
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: #f6f6f6;
+  padding: 1rem;
+  width: 45%;
+}
+.apresentacao__botoes .botao:hover {
+  background-color: #f6f6f6;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  color: blueviolet;
+}
+.apresentacao__botoes .botao--link {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.perfil-imagem {
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */

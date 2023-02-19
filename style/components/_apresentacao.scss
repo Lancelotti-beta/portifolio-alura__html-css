@@ -1,0 +1,51 @@
+@import "../abstract/variavel";
+
+.apresentacao {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 600px;
+
+    &__titulo {
+        font-size: 1.75rem;
+        line-height: 56px;
+
+        .titulo--destaque {
+            color: blueviolet;
+        }
+    }
+
+    &__texto {
+        font-size: 1rem;
+        line-height: 36px;
+        text-align: justify;
+    }
+
+    &__botoes {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-evenly;
+
+        .botao {
+            background-color: blueviolet;
+            border-radius: 10px;
+            color: $cor-fonte;
+            padding: 1rem;
+            width: 45%;
+        }
+
+        .botao:hover {
+            background-color: $cor-fonte;
+            border: 1px solid blueviolet;
+            border-radius: 10px;
+            color: blueviolet;
+        }
+
+        .botao--link {
+            font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
