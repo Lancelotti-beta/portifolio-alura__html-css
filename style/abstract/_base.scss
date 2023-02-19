@@ -11,6 +11,7 @@ body {
     background-color: $cor-fundo;
     color: $cor-fonte;
     display: grid;
+    font-weight: $fonte-baixa;
     grid-row: 3;
     grid-column: 2;
     gap: 1rem;

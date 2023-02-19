@@ -1,6 +1,8 @@
 .container-flex {
     align-items: center;
     display: flex;
+    font-family: $fonte-texto;
+    font-weight: $fonte-media;
     gap: 1rem;
     justify-content: space-between;
     margin: 0 10%;
