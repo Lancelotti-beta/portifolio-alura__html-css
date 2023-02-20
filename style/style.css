@@ -59,22 +59,29 @@ body {
   font-weight: 500;
 }
 .apresentacao__botoes {
+  align-items: center;
   display: inherit;
-  gap: 1rem;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: center;
   width: 90%;
 }
-.apresentacao__botoes .botao {
-  background-color: #8A2BE2;
-  border-radius: 10px;
-  color: #181a18;
-  font-size: 2rem;
+.apresentacao__botoes .botoes--encontre-me {
+  color: #ffffff;
+  font-size: 1rem;
   font-weight: 600;
+}
+.apresentacao__botoes .botao {
+  background-color: none;
+  border: 1px solid #8A2BE2;
+  border-radius: 10px;
   padding: 1rem;
   width: 45%;
 }
 .apresentacao__botoes .botao--link {
-  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2rem;
   text-decoration: none;
   text-align: center;
 }

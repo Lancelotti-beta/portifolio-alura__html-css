@@ -29,23 +29,31 @@
     }
 
     &__botoes {
+        align-items: center;
         display: inherit;
-        gap: 1rem;
-        justify-content: space-around;
+        flex-direction: column;
+        gap: .75rem;
+        justify-content: center;
         width: 90%;
 
-        .botao {
-            background-color: $cor-destaque;
-            border-radius: 10px;
-            color: $cor-principal;
-            font-size: 2rem;
+        .botoes--encontre-me {
+            color: $cor-secundaria;
+            font-size: 1rem;
             font-weight: $fonte-alta;
+        }
+
+        .botao {
+            background-color: none;
+            border: 1px solid $cor-destaque;
+            border-radius: 10px;
             padding: 1rem;
             width: 45%;
         }
 
         .botao--link {
-            font-size: 1rem;
+            color: $cor-secundaria;
+            font-weight: $fonte-alta;
+            font-size: 2rem;
             text-decoration: none;
             text-align: center;
         }
