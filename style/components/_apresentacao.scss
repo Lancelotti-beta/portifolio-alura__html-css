@@ -1,16 +1,15 @@
 @import "../abstract/variavel";
 
 .apresentacao {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    grid-template-columns: 1fr span;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
-    max-width: 600px;
 
     &__titulo {
-        font-family: $fonte-titulo;
         font-size: 1.75rem;
-        font-weight: $fonte-media;
         line-height: 56px;
 
         .titulo--destaque {
@@ -20,43 +19,12 @@
 
     &__texto {
         font-size: 1rem;
-        line-height: 36px;
-        text-align: justify;
+        
         .texto--destaque {
             color: $cor-destaque;
             font-weight: $fonte-regular;
         }
     }
 
-    &__botoes {
-        align-items: center;
-        display: inherit;
-        flex-direction: column;
-        gap: .75rem;
-        justify-content: center;
-        width: 90%;
-
-        .botoes--encontre-me {
-            color: $cor-secundaria;
-            font-size: 1rem;
-            font-weight: $fonte-alta;
-        }
-
-        .botao {
-            background-color: none;
-            border: 1px solid $cor-destaque;
-            border-radius: 10px;
-            padding: 1rem;
-            width: 45%;
-        }
-
-        .botao--link {
-            color: $cor-secundaria;
-            font-weight: $fonte-alta;
-            font-size: 2rem;
-            text-decoration: none;
-            text-align: center;
-        }
-    }
 }
 

@@ -1,0 +1,18 @@
+@import "../abstract/variavel";
+
+.botao {
+    background-color: none;
+    border: 1px solid $cor-destaque;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50%;
+}
+
+.botao--link {
+    color: $cor-secundaria;
+    font-weight: $fonte-alta;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
