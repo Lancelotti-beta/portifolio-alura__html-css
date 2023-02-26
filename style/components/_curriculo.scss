@@ -1,0 +1,13 @@
+.curriculo {
+    align-items: flex-start;
+    width: 90%;
+
+    &__titulo {
+        font-size: 2rem;
+    }
+
+    &__texto {
+        font-size: 1.75rem;
+        font-weight: $fonte-media;
+    }
+}

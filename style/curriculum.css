@@ -114,6 +114,10 @@ body {
   text-align: justify;
 }
 
+.texto--block {
+  display: block;
+}
+
 .cabecalho {
   padding: 3% 0% 0% 10%;
   height: 10%;
@@ -152,6 +156,18 @@ body {
     flex-direction: column-reverse;
   }
 }
+.curriculo {
+  align-items: flex-start;
+  width: 90%;
+}
+.curriculo__titulo {
+  font-size: 2rem;
+}
+.curriculo__texto {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
 .perfil__imagem {
   border-radius: 10px;
   max-height: 590px;

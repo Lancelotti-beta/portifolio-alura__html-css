@@ -114,6 +114,10 @@ body {
   text-align: justify;
 }
 
+.texto--block {
+  display: block;
+}
+
 .cabecalho {
   padding: 3% 0% 0% 10%;
   height: 10%;
