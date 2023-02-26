@@ -4,15 +4,16 @@
     background-color: none;
     border: 1px solid $cor-destaque;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 0;
+    text-align: center;
     width: 50%;
+
+    &__link {
+        color: $cor-secundaria;
+        font-weight: $fonte-alta;
+        font-size: 1rem;
+    }
 }
 
-.botao--link {
-    color: $cor-secundaria;
-    font-weight: $fonte-alta;
-    font-size: 1rem;
-    text-align: center;
-}
 
 

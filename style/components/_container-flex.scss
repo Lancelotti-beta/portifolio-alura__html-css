@@ -1,18 +1,19 @@
-.container__flex {
+@import "../abstract/variavel";
+
+.container-flex {
     align-items: center;
     display: flex;
     font-weight: $fonte-media;
     gap: 1rem;
     justify-content: space-between;
-    margin: 0 10%;
 }
 
-.container__flex--botao {
+.container-flex--column {
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    justify-content: space-between;
+    width: 100%;
 }
 
 @media screen and (max-width:  768px) {
@@ -20,3 +21,4 @@
         flex-direction: column-reverse;
     }
 }
+

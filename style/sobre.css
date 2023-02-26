@@ -152,42 +152,6 @@ body {
     flex-direction: column-reverse;
   }
 }
-.apresentacao {
-  height: 100%;
-  width: 90%;
-}
-.apresentacao__titulo {
-  font-size: 1.75rem;
-  line-height: 56px;
-}
-.apresentacao__titulo .titulo--destaque {
-  color: #8A2BE2;
-}
-.apresentacao__texto {
-  font-size: 1rem;
-}
-.apresentacao__texto .texto--destaque {
-  color: #8A2BE2;
-  font-weight: 500;
-}
-.apresentacao__links {
-  margin-top: 1rem;
-}
-
-.botao {
-  background-color: none;
-  border: 1px solid #8A2BE2;
-  border-radius: 10px;
-  padding: 1rem 0;
-  text-align: center;
-  width: 50%;
-}
-.botao__link {
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 1rem;
-}
-
 .perfil__imagem {
   border-radius: 10px;
   max-height: 590px;
@@ -201,4 +165,4 @@ body {
   font-weight: 400;
   padding: 1rem;
   text-align: center;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=sobre.css.map */
