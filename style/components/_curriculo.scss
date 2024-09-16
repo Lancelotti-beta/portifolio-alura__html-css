@@ -9,5 +9,8 @@
     &__texto {
         font-size: 1.75rem;
         font-weight: $fonte-media;
+        .texto{
+            color:$cor-elementos;
+        }     
     }
 }
