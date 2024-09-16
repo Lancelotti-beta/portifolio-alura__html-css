@@ -4,4 +4,4 @@ Projeto do alura para aprender e dar os primeiros passos com as linguagem e ente
 
 -> Projeto desenvolvido com Sass
 
-componentizando o projeto para reutilar o style entre as paginas
+componentizando para reutilar o css entre as paginas
