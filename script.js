@@ -1,7 +1,7 @@
 (() => {
 
 async function mostraInformacaos(){
-    await fetch("./info.json", "GET")
+    await fetch("./info.json", { method : "GET" })
       .then((resposta) => resposta.json())
       .then((dados) => {
         document.querySelector('[data-info="eu"]').innerHTML = `
