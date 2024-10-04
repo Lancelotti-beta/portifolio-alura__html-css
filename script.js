@@ -12,7 +12,17 @@ async function mostraInformacaos(){
         document.querySelector('[data-info="trabalhos"]').innerHTML = `
           <ul>
             ${dados.trabalhos.map(({empresa, cargo, dataInicio, dataFinal}) => {
-              ``
+              return `
+              <li class="texto">
+                <span class="titulo--secundario">
+                  ${empresa} 
+                  (
+                    ${dataInicio} 
+                    ${(null) " - . . . " :  " - " ${dataFinal}}
+                  )
+                </span> - ${cargo}
+              </li>
+              `
 
             })}
           </ul>
