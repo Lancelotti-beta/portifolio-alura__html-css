@@ -6,8 +6,8 @@ async function mostraInformacaos(url){
       .then((dados) => {
         document.querySelector('data-info="eu"').innerHTML =
         `
-          ${name}
-          <span class="texto--block">${age} anos</span>
+          ${dados.name}
+          <span class="texto--block">${dados.age} anos</span>
           <span class="texto--block titulo--secundario">ONEhellper</span>
         `
       });
