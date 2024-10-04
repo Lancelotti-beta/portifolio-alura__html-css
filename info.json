@@ -4,6 +4,11 @@
   "city" : "Presidente Prudente",
   "FS" : "SP",
   "Trabalhos" : [
-    {},
+    {
+      "empresa" : "IRMAOS MUFFATO S.A", 
+      "Ocupacao" : "521125 - REPOSITOR DE MERCADORIAS"
+      "admissao" : "03/10/2023",
+      "recisaoContratual" : ""
+    },
   ]
 }
