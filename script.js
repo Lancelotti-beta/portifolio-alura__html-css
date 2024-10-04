@@ -1,5 +1,7 @@
 (() => {
 
+document.querySelector('h1').innerHTML = "";
+
 async function mostraInformacaos(){
     await fetch("./info.json", { method : "GET" })
       .then((resposta) => resposta.json())
