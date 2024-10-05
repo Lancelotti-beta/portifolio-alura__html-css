@@ -21,7 +21,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-console.log(analytics.database());
+console.log(app);
 
 const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
 
