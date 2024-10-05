@@ -29,7 +29,10 @@ async function mostraInformacaos(){
         'Accept': 'application/json' 
       }
     })
-    .then((response) => JSON.stringify(response))
+    .then((response) => {
+      //JSON.stringify(response)
+      res = JSON.parse(response);
+    })
     .then((dados) => {
       console.log(dados);
       document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
