@@ -23,12 +23,7 @@ function trabalhosRegistrados(dados) {
 
 
 async function mostraInformacaos(){
-  await fetch("./info.json", {
-      headers : {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json' 
-      }
-    })
+  await fetch("./info.json")
     .then((response) => {
       JSON.stringify(response)
     })
