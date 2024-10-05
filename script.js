@@ -1,4 +1,3 @@
-
 const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
 
 function informacaoPessoal(dados) {
@@ -21,9 +20,8 @@ function trabalhosRegistrados(dados) {
   })
 }
 
-
 async function mostraInformacaos(){
-  await fetch("./info.json")
+  await fetch("https://bdtrabalhos-default-rtdb.firebaseio.com/")
     .then((response) => response.json())
     .then((dados) => {
       console.log(dados);
@@ -36,4 +34,4 @@ async function mostraInformacaos(){
     })
 }
 
-mostraInformacaos();
+mostraInformacaos()
