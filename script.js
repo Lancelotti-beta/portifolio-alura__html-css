@@ -1,4 +1,6 @@
 
+const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
+
 function informacaoPessoal(dados) {
   return ` 
     ${dados.name}
@@ -10,9 +12,9 @@ function informacaoPessoal(dados) {
 function trabalhosRegistrados(dados) {
   dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
     return `
-      <li class="texto">
-        <span class="titulo--secundario">
-          ${empresa} ( ${dataInicio} ${null ? ' - . . .' : ' - ' dataFinal} )
+    <li class="texto">
+    <span class="titulo--secundario">
+    ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
         </span> - ${cargo}
       </li>
     `
