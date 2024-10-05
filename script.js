@@ -1,6 +1,5 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "./node_modules/firebase/app/dist/app/index";
-";
 import { getAnalytics } from "./node_modules/firebase/analytics/dist/analytics/index";
 ;
 // TODO: Add SDKs for Firebase products that you want to use
