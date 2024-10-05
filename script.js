@@ -21,7 +21,7 @@ function trabalhosRegistrados(dados) {
 }
 
 async function mostraInformacaos(){
-  await fetch("https://bdtrabalhos-default-rtdb.firebaseio.com/")
+  await fetch("https://bdtrabalhos-default-rtdb.firebaseio.com")
     .then((response) => response.json())
     .then((dados) => {
       console.log(dados);
