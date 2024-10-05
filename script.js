@@ -1,4 +1,3 @@
-(() => {
 
 function informacaoPessoal(dados) {
   return ` 
@@ -14,7 +13,7 @@ function trabalhosRegistrados(dados) {
       <li class="texto">
         <span class="titulo--secundario">
           ${empresa} ( ${dataInicio} ${null ? ' - . . .' : ' - ' dataFinal} )
-        </span > - ${cargo}
+        </span> - ${cargo}
       </li>
     `
   })
@@ -36,4 +35,3 @@ async function mostraInformacaos(){
 }
 
 mostraInformacaos();
-})();
