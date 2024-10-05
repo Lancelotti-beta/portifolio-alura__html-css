@@ -30,8 +30,9 @@ async function mostraInformacaos(){
       }
     })
     .then((response) => {
-      //JSON.stringify(response)
-      res = JSON.parse(response);
+      JSON.stringify(response)
+      res = JSON.parse(response)
+      return res
     })
     .then((dados) => {
       console.log(dados);
