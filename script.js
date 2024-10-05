@@ -24,7 +24,6 @@ function trabalhosRegistrados(dados) {
 
 async function mostraInformacaos(){
   await fetch("./info.json", { method : "GET" })
-    .then((resposta) => resposta.json())
     .then((dados) => {
       console.log(dados);
       document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
