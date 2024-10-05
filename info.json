@@ -2,8 +2,8 @@
   "name" : "Bruno José Marques Da Silva",
   "age" : 27,
   "city" : "Presidente Prudente",
-  "FS" : "SP",
-  "Trabalhos" : [
+  "fs" : "SP",
+  "trabalhos" : [
     {
       "empresa" : "IRMAOS MUFFATO S.A", 
       "ocupacao" : "REPOSITOR DE MERCADORIAS"
