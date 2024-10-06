@@ -38,7 +38,7 @@ function informacaoPessoal(dados) {
 
 function trabalhosRegistrados(dados) {
   return dados.trabalhos.map(({ empresa, ocupacao, admissao, recisaoContratual }) => {
-    console.log(recisaoContratual)
+    console.log(terminoDeContrato(recisaoContratual));
     return `
       <li class="texto">
         <span class="titulo--secundario">
