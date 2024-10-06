@@ -26,7 +26,7 @@ onValue(referencia, (res) => {
 })
 
 
-const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
+const terminoDeContrato = (value) => false ? " - . ." : " - " + value;
 
 function informacaoPessoal(dados) {
   return ` 
@@ -50,19 +50,9 @@ function trabalhosRegistrados(dados) {
 
 function mostraInformacaos(dados){
   document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
-  document.querySelector('[data-info="trabalhos"]').innerHTML = `
+  document.querySelector('[data-info="trabalhos"]').innerHTML += `
     <ul>
-      ${
-        dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
-          return `
-            <li class="texto">
-              <span class="titulo--secundario">
-                ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
-              </span> - ${cargo}
-            </li>
-          `
-        })
-      }
+      ${trabalhosRegistrados(dados)}
     </ul>
   `
 }
