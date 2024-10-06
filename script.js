@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
 const data = getDatabase(app);
-const referencia = ref(data, "age, name, trabalhos")
+const referencia = ref(data)
 
 onValue(referencia, (res) => {
   const dataBD = res.val();
