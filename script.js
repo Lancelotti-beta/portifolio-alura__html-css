@@ -37,7 +37,7 @@ function informacaoPessoal(dados) {
 }
 
 function trabalhosRegistrados(dados) {
-  console.log(dados.trabalhos[0])
+  console.log(dados.trabalhos[0].admissao)
   dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
     return `
       <li class="texto">
