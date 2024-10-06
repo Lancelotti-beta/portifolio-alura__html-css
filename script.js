@@ -1,6 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
-import { getDatabase, get } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
+//import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC9kLsETz37DBoTilkK5PjNQg_ldZTIWCc",
@@ -15,11 +15,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 
 const data = getDatabase(app);
-console.log(analytics)
-console.log(data)
+
+console.log(ref(data, "age, name"))
 
 
 const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
