@@ -26,7 +26,7 @@ onValue(referencia, (res) => {
 })
 
 
-const terminoDeContrato = (value) => false ? " " : " - " + value;
+const terminoDeContrato = (value) => undefined ? " " : " - " + value;
 
 function informacaoPessoal(dados) {
   return ` 
