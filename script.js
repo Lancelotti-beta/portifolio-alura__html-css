@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
 const data = getDatabase(app);
-console.log("-->" + analytics + " : " + data )
+console.log("--> " + analytics.json() + " : " + data.json() )
 
 
 const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
