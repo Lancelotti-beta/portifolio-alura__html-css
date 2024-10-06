@@ -37,7 +37,7 @@ function informacaoPessoal(dados) {
 }
 
 function trabalhosRegistrados(dados) {
-  dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
+  return dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
     return `
       <li class="texto">
         <span class="titulo--secundario">
