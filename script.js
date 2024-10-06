@@ -42,7 +42,7 @@ function trabalhosRegistrados(dados) {
     return `
       <li class="texto">
         <span class="titulo--secundario">
-          ${empresa} ( ${admissao} ${terminoDeContrato(dataFinal)} )
+          ${empresa} ( ${admissao} ${terminoDeContrato(recisaoContratual)} )
         </span> - ${ocupacao}
       </li>
     `
