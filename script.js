@@ -40,9 +40,9 @@ function trabalhosRegistrados(dados) {
   console.log(dados.trabalhos[0])
   dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
     return `
-    <li class="texto">
-    <span class="titulo--secundario">
-    ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
+      <li class="texto">
+        <span class="titulo--secundario">
+          ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
         </span> - ${cargo}
       </li>
     `
