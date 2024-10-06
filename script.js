@@ -50,9 +50,19 @@ function trabalhosRegistrados(dados) {
 
 function mostraInformacaos(dados){
   document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
-  document.querySelector('[data-info="trabalhos"]').innerHTML += `
+  document.querySelector('[data-info="trabalhos"]').innerHTML = `
     <ul>
-      ${trabalhosRegistrados(dados)}
+      ${
+        dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
+          return `
+            <li class="texto">
+              <span class="titulo--secundario">
+                ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
+              </span> - ${cargo}
+            </li>
+          `
+        })
+      }
     </ul>
   `
 }
