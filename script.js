@@ -37,9 +37,7 @@ function informacaoPessoal(dados) {
 }
 
 function trabalhosRegistrados(dados) {
-  console.log(dados.trabalhos[0])
   dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
-    console.log(empresa)
     return `
       <li class="texto">
         <span class="titulo--secundario">
@@ -52,7 +50,7 @@ function trabalhosRegistrados(dados) {
 
 function mostraInformacaos(dados){
   document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
-  document.querySelector('[data-info="trabalhos"]').innerHTML = `
+  document.querySelector('[data-info="trabalhos"]').innerHTML += `
     <ul>
       ${trabalhosRegistrados(dados)}
     </ul>
