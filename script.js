@@ -22,7 +22,7 @@ const referencia = ref(data)
 
 onValue(referencia, (res) => {
   const dataBD = res.val();
-  console.log(dataBD);
+  mostraInformacaos(dataBD);
 })
 
 
@@ -48,18 +48,12 @@ function trabalhosRegistrados(dados) {
   })
 }
 
-async function mostraInformacaos(){
-  await fetch("https://bdtrabalhos-default-rtdb.firebaseio.com/")
-    .then((response) => response.json())
-    .then((dados) => {
-      console.log(dados);
-      document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
-      document.querySelector('[data-info="trabalhos"]').innerHTML = `
-        <ul>
-          ${trabalhosRegistrados(dados)}
-        </ul>
-      `
-    })
+function mostraInformacaos(dados){
+  document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
+  document.querySelector('[data-info="trabalhos"]').innerHTML = `
+    <ul>
+      ${trabalhosRegistrados(dados)}
+    </ul>
+  `
 }
 
-//mostraInformacaos()
