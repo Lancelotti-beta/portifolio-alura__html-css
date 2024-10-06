@@ -32,7 +32,7 @@ function informacaoPessoal(dados) {
   return ` 
     ${dados.name}
     <span class="texto--block">${dados.age} anos</span>
-    <span class="texto--block titulo--secundario">ONEhellper</span>
+    <span class="texto--block texto titulo--secundario">ONEhellper</span>
   `
 }
 
