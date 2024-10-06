@@ -18,8 +18,12 @@ const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
 
 const data = getDatabase(app);
+const referencia = ref(data, "age, name, trabalhos")
 
-console.log(ref(data, "age, name"))
+onValue(referencia, (res) => {
+  const dataBD = res.val();
+  console.log(dataBD);
+})
 
 
 const terminoDeContrato = (value) => null ? " - . ." : " - " + value;
