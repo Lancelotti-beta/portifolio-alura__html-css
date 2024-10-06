@@ -130,6 +130,7 @@ body {
   display: flex;
   gap: 1rem;
 }
+
 .container {
   height: 100%;
   padding: 3% 10%;
