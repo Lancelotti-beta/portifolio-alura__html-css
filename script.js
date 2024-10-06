@@ -37,13 +37,13 @@ function informacaoPessoal(dados) {
 }
 
 function trabalhosRegistrados(dados) {
-  return dados.trabalhos.map(({ empresa, cargo, dataInicio, dataFinal }) => {
-    console.log(dataFinal)
+  return dados.trabalhos.map(({ empresa, ocupacao, admissao, recisaoContratual }) => {
+    console.log(recisaoContratual)
     return `
       <li class="texto">
         <span class="titulo--secundario">
-          ${empresa} ( ${dataInicio} ${terminoDeContrato(dataFinal)} )
-        </span> - ${cargo}
+          ${empresa} ( ${admissao} ${terminoDeContrato(dataFinal)} )
+        </span> - ${ocupacao}
       </li>
     `
   }).join("")
