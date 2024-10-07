@@ -3,14 +3,14 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 //import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC9kLsETz37DBoTilkK5PjNQg_ldZTIWCc",
-  authDomain: "bdtrabalhos.firebaseapp.com",
+  //apiKey: "AIzaSyC9kLsETz37DBoTilkK5PjNQg_ldZTIWCc",
+  //authDomain: "bdtrabalhos.firebaseapp.com",
   databaseURL: "https://bdtrabalhos-default-rtdb.firebaseio.com",
-  projectId: "bdtrabalhos",
-  storageBucket: "bdtrabalhos.appspot.com",
-  messagingSenderId: "85437939350",
-  appId: "1:85437939350:web:ad14c4db28e7e521918cb7",
-  measurementId: "G-L11VNXDR9V"
+  //projectId: "bdtrabalhos",
+  //storageBucket: "bdtrabalhos.appspot.com",
+  //messagingSenderId: "85437939350",
+  //appId: "1:85437939350:web:ad14c4db28e7e521918cb7",
+  //measurementId: "G-L11VNXDR9V"
 };
 
 // Initialize Firebase
