@@ -11,7 +11,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 const data = getDatabase(app);
-const referencia = ref(data)
+const referencia = ref(data);
 
 onValue(referencia, (res) => {
   const dataBD = res.val();
@@ -23,17 +23,17 @@ const terminoDeContrato = (value) => value ? " - " + value : " ";
 
 function informacaoPessoal(dados) {
   return ` 
-    ${dados.name}
-    <span class="texto--block">${dados.age} anos</span>
-    <span class="texto--block texto titulo--secundario">ONEhellper</span>
+    ${dados.name},
+    <span class="curriculo__espacamento texto--block">${dados.age} anos</span>
+    <span class="texto--block texto secundario--alternativo cor--elemento">ONEhellper</span>
   `
 }
 
 function trabalhosRegistrados(dados) {
   return dados.trabalhos.map(({ empresa, ocupacao, admissao, recisaoContratual }) => {
     return `
-      <li class="texto">
-        <span class="titulo--secundario">
+      <li class="curriculo__espacamento">
+        <span class="cor--elemento">
           ${empresa} ( ${admissao} ${terminoDeContrato(recisaoContratual)} )
         </span> - ${ocupacao}
       </li>

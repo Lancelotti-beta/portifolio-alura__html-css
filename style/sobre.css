@@ -108,6 +108,10 @@ body {
   font-size: 1rem;
   font-weight: 600;
 }
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
 
 .texto {
   line-height: 36px;
@@ -116,6 +120,14 @@ body {
 
 .texto--block {
   display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
 }
 
 .cabecalho {

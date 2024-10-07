@@ -16,6 +16,11 @@ body {
     color: $cor-secundaria;
     font-size: 1rem;
     font-weight: $fonte-alta;
+
+    .secundario--alternativo {
+        color: $cor-secundaria;
+        font-weight: $fonte-alta;
+    }
 }
 
 .texto {
@@ -25,4 +30,12 @@ body {
 
 .texto--block {
     display: block;
+}
+
+.cor--destaque {
+    color: $cor-destaque;    
+}
+
+.cor--elemento {
+    color: $cor-elementos;
 }
