@@ -1,4 +1,4 @@
-@import "../abstract/variavel";
+@import "../abstract/base";
 
 .apresentacao {
     height: 100%;
@@ -27,3 +27,8 @@
     }
 }
 
+@media screen and (min-width:  578px) {
+    .apresentacao {
+        height: 100vh;    
+    }
+}

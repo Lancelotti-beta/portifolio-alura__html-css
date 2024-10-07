@@ -1,4 +1,4 @@
-@import "../abstract/variavel";
+@import "../abstract/base";
 
 .botao {
     background-color: none;
@@ -13,6 +13,7 @@
         font-weight: $fonte-alta;
         font-size: 1rem;
     }
+
 }
 
 

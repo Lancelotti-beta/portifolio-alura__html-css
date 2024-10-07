@@ -130,6 +130,45 @@ body {
   color: #0096ff;
 }
 
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
+}
+
 .cabecalho {
   padding: 3% 0% 0% 10%;
   height: 10%;
@@ -143,9 +182,87 @@ body {
   gap: 1rem;
 }
 
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
+}
+
 .container {
   height: 100%;
   padding: 3% 10%;
+}
+
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
 }
 
 .container-flex {
@@ -169,6 +286,45 @@ body {
     flex-direction: column-reverse;
   }
 }
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
+}
+
 .apresentacao {
   height: 100%;
   width: 90%;
@@ -191,6 +347,50 @@ body {
   margin-top: 1rem;
 }
 
+@media screen and (min-width: 578px) {
+  .apresentacao {
+    height: 100vh;
+  }
+}
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
+}
+
 .botao {
   background-color: none;
   border: 1px solid #8A2BE2;
@@ -205,12 +405,90 @@ body {
   font-size: 1rem;
 }
 
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
+}
+
 .perfil__imagem {
   border-radius: 10px;
   max-height: 590px;
   max-width: 490px;
   height: 90%;
   width: 90%;
+}
+
+body {
+  background-color: #181a18;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.titulo {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+}
+
+.titulo--secundario {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.titulo--secundario .secundario--alternativo {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.texto {
+  line-height: 36px;
+  text-align: justify;
+}
+
+.texto--block {
+  display: block;
+}
+
+.cor--destaque {
+  color: #8A2BE2;
+}
+
+.cor--elemento {
+  color: #0096ff;
 }
 
 .rodape {

@@ -1,0 +1,12 @@
+@import "../abstract/base";
+
+.sobre {
+    height: 100%;
+    width: 90%;
+}
+
+@media screen and (min-width:  578px) {
+    .sobre {
+        height: 100vh;    
+    }
+}

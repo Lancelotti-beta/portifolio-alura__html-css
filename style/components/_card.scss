@@ -1,0 +1,10 @@
+@import "../abstract/base";
+
+.card {
+    height: 400px;
+    width: 50%;
+
+    &__botao {
+        width: 50%;
+    }
+}
