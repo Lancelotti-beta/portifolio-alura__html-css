@@ -3,8 +3,7 @@ import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10
 
 
 const firebaseConfig = {
-  databaseURL: "https://bdtrabalhos-default-rtdb.firebaseio.com",
-  
+  databaseURL: "https://bdtrabalhos-default-rtdb.firebaseio.com"
 };
 
 // Initialize Firebase
@@ -33,7 +32,7 @@ function cursosFeitos(dados) {
   return dados.cursos.map(({name, link}) => {
     return `
       <li class="curriculo__espacamento texto">
-        <a class="cor--destaque" target="_blank" href="${link}"> ${name} </a>
+        <a class="cor--destaque" target="_blank" href="${link}"> -> ${name} </a>
       </li>
     `
   }).join("")
