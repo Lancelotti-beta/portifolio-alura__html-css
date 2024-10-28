@@ -29,6 +29,16 @@ function informacaoPessoal(dados) {
   `
 }
 
+function cursosFeitos(dados) {
+  return dados.cursos.map(({name, link}) => {
+    return `
+      <li class="curriculo__espacamento texto">
+        <a class="cor--destaque" target="_blank" href="${link}"> ${name} </a>
+      </li>
+    `
+  }).join("")
+}
+
 function trabalhosRegistrados(dados) {
   return dados.trabalhos.map(({ empresa, ocupacao, admissao, recisaoContratual }) => {
     return `
@@ -43,6 +53,12 @@ function trabalhosRegistrados(dados) {
 
 function mostraInformacaos(dados){
   document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
+
+//document.quwrySelector('[data-info="cursos"]').innerHTML += `
+    <ul class="curriculo__texto">
+      ${(cursosFeitos(dados)}
+    </ul>
+  `
   document.querySelector('[data-info="trabalhos"]').innerHTML += `
     <ul>
       ${trabalhosRegistrados(dados)}
