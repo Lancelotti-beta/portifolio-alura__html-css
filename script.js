@@ -56,7 +56,7 @@ function mostraInformacaos(dados){
 
   document.querySelector('[data-info="cursos"]').innerHTML += `
     <ul class="curriculo__texto">
-      ${(cursosFeitos(dados)}
+      ${cursosFeitos(dados)}
     </ul>
   `
   document.querySelector('[data-info="trabalhos"]').innerHTML += `
