@@ -54,7 +54,7 @@ function trabalhosRegistrados(dados) {
 function mostraInformacaos(dados){
   document.querySelector('[data-info="eu"]').innerHTML = informacaoPessoal(dados);
 
-//document.quwrySelector('[data-info="cursos"]').innerHTML += `
+document.quwrySelector('[data-info="cursos"]').innerHTML += `
     <ul class="curriculo__texto">
       ${(cursosFeitos(dados)}
     </ul>
